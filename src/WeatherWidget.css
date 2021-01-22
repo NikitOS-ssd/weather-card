@@ -1,0 +1,12 @@
+.weather-widget {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.weather-search {
+  display: flex;
+  flex-direction: column;
+}
