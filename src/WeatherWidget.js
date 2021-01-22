@@ -34,7 +34,9 @@ const WeatherWidget = () => {
         </label>
       </div>
       
-      Weather widget
+      <div className="weather-card">
+        
+      </div>
 
     </div>
   )
