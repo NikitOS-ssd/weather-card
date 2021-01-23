@@ -35,7 +35,10 @@ const WeatherWidget = () => {
       </div>
       
       <div className="weather-card">
-        
+        <div className="weather-icon sun"></div>
+
+        <h1 className="temperature">{temperature}°</h1>
+        <p className="city">Moscow</p>
       </div>
 
     </div>
