@@ -18,7 +18,7 @@ const WeatherWidget = () => {
 
   return (
     <div className="weather-widget">
-      <div className="weather-search">
+      {/* <div className="weather-search">
         <input type="text" className="weather-serch_temperature" placeholder="Введите текующую температуру" value={temperature} onChange={event => setTemperature(event.target.value)} />
         <label>
           Идёт снег:
@@ -32,7 +32,7 @@ const WeatherWidget = () => {
           Сильный ветер:
           <input type="checkbox" checked={isStrongWind} onChange={event => setStrongWind(event.target.checked)} />
         </label>
-      </div>
+      </div> */}
       
       <div className="weather-card">
         <div className="weather-icon sun"></div>
