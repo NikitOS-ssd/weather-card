@@ -21,6 +21,7 @@
   box-shadow: 0px 0px 25px 1px rgba(50, 50, 50, 0.1);
   user-select: none;
 }
+
 .weather-card > .temperature {
   position: absolute;
   font-family: 'Lato', sans-serif;
@@ -30,7 +31,7 @@
   left: 35px;
   top: 0px;
   opacity: 0;
-  transition: translateX(150px);
+  transition: all 300ms ease-in-out;
   animation: title-appear 500ms ease-out 500ms forwards;
 }
 .weather-card > .city {
@@ -73,7 +74,7 @@
   #b6cede 11px -8px 0 -3px,
   #b6cede 25px 11px 0 -1px;
 }
-.cloud:after {
+.cloud.rain:after {
   content: '';
   position: absolute;
   border-radius: 10px;
@@ -85,7 +86,7 @@
   transform: rotate(30deg);
   animation: rain 1000ms ease-in-out infinite alternate;
 }
-.cloud.strong:after {
+.cloud.rain.strong:after {
   content: '';
   position: absolute;
   border-radius: 10px;
